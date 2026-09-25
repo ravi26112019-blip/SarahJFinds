@@ -58,6 +58,8 @@ main {
 }
 
 .share-btn i{
+    height: 0.7rem;
+    width: 0.7rem;
     font-size: 0.7rem;
 }
 
