@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: #f0f4f8;
+}
+
 body {
     margin-top: 3rem;
     user-select: none;
