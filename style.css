@@ -11,6 +11,24 @@ body {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@font-face {
+    font-family: 'Netlfix sans';
+    src: url(https://ik.imagekit.io/lzl0sgfim/Fonts/NetflixSans-Medium.otf?updatedAt=1781602262607);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Netflix sans';
+    src: url(https://ik.imagekit.io/lzl0sgfim/Fonts/NetflixSans-Regular.otf?updatedAt=1781602262769);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Netflix sans';
+    src: url(https://ik.imagekit.io/lzl0sgfim/Fonts/NetflixSans-Bold.otf?updatedAt=1781602262405);
+    font-weight: 600;
+}
+
 .header__bg-curve {
     fill: #f0f4f8;
     position: absolute;
