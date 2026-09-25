@@ -25,6 +25,8 @@ main {
     text-align: center;
     gap: 1rem;
     padding-inline: 1.1rem;
+    margin: auto;
+    max-width: 500px;
 }
 
 .avatar {
@@ -139,4 +141,12 @@ footer {
     height: 3rem;
     font-size: 0.80rem;
     z-index: 999;
+}
+
+@media(min-width: 500px) {
+
+.header__bg-curve {
+    display: none;
+}
+
 }
