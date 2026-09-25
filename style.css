@@ -34,6 +34,9 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 0.75rem;
+    position: absolute;
+    top: 0
+    right: 0;
 }
 
 .share-btn {
