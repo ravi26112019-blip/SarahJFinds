@@ -90,6 +90,11 @@ img {
     border-radius: 2rem;
     padding: 1.1rem;
     box-shadow: 0 2px 6px #b3b3b3;
+    transition: 0.3s ease;
+}
+
+.bio-links a:hover {
+    transform: scale(1.02);
 }
 
 .social-icons {
@@ -101,6 +106,17 @@ img {
 
 .username {
     font-size: 1rem;
+}
+
+i {
+    font-size: 24px;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+i:hover {
+    transform: scale(1.08);
 }
 
 footer {
@@ -116,4 +132,5 @@ footer {
     height: 40px;
     font-size: 0.75rem;
     z-index: 999;
+    display: none;
 }
