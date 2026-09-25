@@ -119,6 +119,18 @@ i:hover {
     transform: scale(1.08);
 }
 
+.fa-instagram:hover {
+    color: #ff00ee;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+.fa-tiktok:hover {
+    color: #000000;
+}
+
 .disclosure {
     font-size: 0.7rem;
     color: #8d8b8b;
