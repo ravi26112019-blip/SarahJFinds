@@ -33,14 +33,6 @@ main {
     width: 100%;
 }
 
-.top-bar {
-    width: 100%;
-    display: flex;
-    position: absolute;
-    top: 0
-    right: 0;
-}
-
 .share-btn {
     width: 2.5rem;
     height: 2.5rem;
