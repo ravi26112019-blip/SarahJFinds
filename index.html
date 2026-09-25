@@ -54,6 +54,20 @@
     <footer>
         <span>amazon.com/shop/sarahjfinds</span>
     </footer>
+
+    <script>
+        function sharePage() {
+            if (navigator.share) {
+                navigator.share({
+                    title: document.title,
+                    url: window.location.href
+                }).catch(err => console.log('Share canceled'));
+            } else {
+                navigator.clipboard.writeText(window.location.href);
+                alert("Link copied to clipboard!");
+            }
+        }
+    </script>
 </body>
 
 </html>
