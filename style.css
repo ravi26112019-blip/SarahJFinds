@@ -110,12 +110,13 @@ img {
 
 i {
     font-size: 24px;
-    color: #333;
+    color: #ddd;
     transition: 0.3s;
     cursor: pointer;
 }
 
 i:hover {
+    color: #333;
     transform: scale(1.08);
 }
 
