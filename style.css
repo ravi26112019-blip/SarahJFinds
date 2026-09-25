@@ -33,6 +33,7 @@ main {
     max-width: 500px;
     width: 100%;
     position: relative;
+    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .share-btn {
@@ -162,7 +163,6 @@ footer {
     font-size: 0.80rem;
     font-weight: 500;
     min-height: 3rem;
-    padding-bottom: env(safe-area-inset-bottom);
     display: flex;
     justify-content: center;
     align-items: center;
