@@ -57,6 +57,10 @@ main {
     margin: 1.5rem;
 }
 
+.share-btn i{
+    font-size: 0.7rem;
+}
+
 .share-btn:hover {
     transform: scale(1.08);
     background-color: #ffffffc2;
