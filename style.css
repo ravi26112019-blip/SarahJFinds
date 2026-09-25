@@ -173,4 +173,7 @@ footer {
     .header__bg-curve {
         display: none;
     }
+
+    main {
+        box-shadow: 0 3px 5px #ddd;
 }
