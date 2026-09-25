@@ -137,6 +137,7 @@ i:hover {
 }
 
 .disclosure {
+    margin-top: 0.5rem;
     font-size: 0.7rem;
     color: #8d8b8b;
 }
