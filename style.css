@@ -82,4 +82,5 @@ footer {
     right: 0;
     height: 40px;
     font-size: 0.6rem;
+    z-index: 999;
 }
