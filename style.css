@@ -28,7 +28,7 @@ main {
     align-items: center;
     text-align: center;
     gap: 0.8rem;
-    padding: 3rem 0 0.5rem 0; /* Fixed footer hatne ke baad normal padding */
+    padding-block: 3rem 0.5rem;
     margin: 0 auto;
     max-width: 500px;
     width: 100%;
