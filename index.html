@@ -11,53 +11,45 @@
 </head>
 
 <body>
-    <svg class="header__bg-curve" viewBox="0 0 1440 400">
-        <path d="M0,0 H1440 V300 Q720,500 0,300 Z"></path>
-    </svg>
+    <svg class="bio-card__bg-curve" viewBox="0 0 1440 400">
+    <path d="M0,0 H1440 V300 Q720,500 0,300 Z"></path>
+</svg>
 
-    <main>
-        <button class="share-btn" onclick="sharePage()" aria-label="Share Page">
-            <i class="fa-solid fa-arrow-up-from-bracket"></i>
-        </button>
-        <div class="avatar">
-            <img src="https://ik.imagekit.io/lzl0sgfim/Profile%20Image/Gemini_Generated_Image_kb341ykb341ykb34.png?tr=w-400,q-80,f-auto"
-                alt="Profile Image">
-        </div>
-        <div class="user-info">
-            <h1 class="name">SARAH J. FINDS</h1>
-            <p class="info">Sharing my favorite finds for a curated lifestyle. Home, Tech, Style & more!</p>
-            <p class="info sub-info">#AmazonCreator💖</p>
-        </div>
+<main class="bio-card">
+    <button class="bio-card__share-btn" onclick="sharePage()" aria-label="Share Page">
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+    </button>
 
-        <section class="bio-links">
-            <a href="#">
-                SHOP MY STOREFRONT
-            </a>
-            <a href="#">
-                LATEST FINDS
-            </a>
-            <a href="#">
-                TECH DEALS
-            </a>
-            <a href="#">
-                HOME DECOR
-            </a>
-        </section>
+    <div class="bio-card__avatar-box">
+        <img class="bio-card__avatar-img" src="https://ik.imagekit.io/lzl0sgfim/Profile%20Image/Gemini_Generated_Image_kb341ykb341ykb34.png?tr=w-400,q-80,f-auto" alt="Profile Image">
+    </div>
 
-        <section class="social-icons">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <span class="username">@SARAHJFINDS</span>
-        </section>
+    <div class="bio-card__user-info">
+        <h1 class="bio-card__name">SARAH J. FINDS</h1>
+        <p class="bio-card__desc">Sharing my favorite finds for a curated lifestyle. Home, Tech, Style & more!</p>
+        <p class="bio-card__tag">#AmazonCreator💖</p>
+    </div>
 
-        <span class="disclosure">As an Amazon Associate I earn from qualifying purchases.</span>
+    <section class="bio-card__links">
+        <a class="bio-card__link-item" href="#">SHOP MY STOREFRONT</a>
+        <a class="bio-card__link-item" href="#">LATEST FINDS</a>
+        <a class="bio-card__link-item" href="#">TECH DEALS</a>
+        <a class="bio-card__link-item" href="#">HOME DECOR</a>
+    </section>
 
-        <footer>
-            <span>amazon.com/shop/sarahjfinds</span>
-        </footer>
+    <section class="bio-card__socials">
+        <i class="fa-brands fa-instagram bio-card__social-icon"></i>
+        <i class="fa-brands fa-youtube bio-card__social-icon"></i>
+        <i class="fa-brands fa-tiktok bio-card__social-icon"></i>
+        <span class="bio-card__handle">@SARAHJFINDS</span>
+    </section>
 
-    </main>
+    <span class="bio-card__disclosure">As an Amazon Associate I earn from qualifying purchases.</span>
+
+    <footer class="bio-card__footer">
+        <span>amazon.com/shop/sarahjfinds</span>
+    </footer>
+</main>
 
     <script>
         function sharePage() {
