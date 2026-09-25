@@ -29,6 +29,34 @@ main {
     max-width: 500px;
 }
 
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.75rem;
+}
+
+.share-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #ffffff83;
+    border: none;
+    color: #222222;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.share-btn:hover {
+    transform: scale(1.08);
+    background-color: #ffffffc2;
+}
+
 .avatar {
     aspect-ratio: 1;
     border-radius: 50%;
