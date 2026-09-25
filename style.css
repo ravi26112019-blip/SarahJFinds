@@ -26,20 +26,6 @@ main {
     padding-inline: 1.1rem;
 }
 
-.name {
-    font-size: 1.5rem;
-}
-
-.info {
-    font-size: 1rem;
-    color: #484848;
-}
-
-.sub-info {
-    color: #787878;
-    font-weight: 500;
-}
-
 img {
     aspect-ratio: 1;
     width: 100px;
@@ -52,6 +38,20 @@ img {
 .user-info {
     display: grid;
     gap: 0.5rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+.info {
+    font-size: 1rem;
+    color: #484848;
+}
+
+.sub-info {
+    color: #787878;
+    font-weight: 500;
 }
 
 .bio-links {
