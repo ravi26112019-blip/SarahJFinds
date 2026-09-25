@@ -6,7 +6,7 @@
 
 body {
     min-height: 100dvh;
-    margin-block: 3rem;
+    display: grid;
     user-select: none;
     font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -21,14 +21,15 @@ body {
 }
 
 main {
+    flex: 1;
     display: grid;
     justify-items: center;
     text-align: center;
     gap: 0.8rem;
-    padding: 0 1.1rem 1rem 1.1rem;
+    padding: 2.5rem 1.1rem calc(4rem + env(safe-area-inset-bottom)) 1.1rem;
     margin: auto;
     max-width: 500px;
-    height: 100%;
+    width: 100%;
 }
 
 .top-bar {
