@@ -6,10 +6,8 @@
 
 body {
     min-height: 100svh;
-    max-width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     user-select: none;
     font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
@@ -32,6 +30,7 @@ main {
     gap: 0.8rem;
     padding: 3rem 1.1rem 0.5rem 1.1rem; /* Fixed footer hatne ke baad normal padding */
     margin: 0 auto;
+    max-width: 500px;
     width: 100%;
 }
 
