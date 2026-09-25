@@ -38,6 +38,7 @@ img {
 .user-info {
     display: grid;
     gap: 0.5rem;
+    width: 90%;
 }
 
 .name {
