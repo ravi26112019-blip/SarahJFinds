@@ -144,16 +144,13 @@ i:hover {
 }
 
 footer {
+    margin-top: auto;
     background: #f0f4f8;
     color: #333333;
     font-weight: 500;
     display: flex;
     justify-content: center;
     padding: 0.8rem;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     height: 40px;
     font-size: 0.75rem;
     z-index: 999;
