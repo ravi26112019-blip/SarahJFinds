@@ -119,9 +119,14 @@ i:hover {
     transform: scale(1.08);
 }
 
+.disclosure {
+    font-size: 0.75rem;
+    color: #4b4b4b;
+}
+
 footer {
     background: #f0f4f8;
-    color: #4b4b4b;
+    color: #333333;
     display: flex;
     justify-content: center;
     padding: 0.6rem;
