@@ -92,16 +92,6 @@ body {
     margin: auto;
 }
 
-.verified-tick {
-    width: 1rem;
-    height: 1rem;
-    margin-left: 6px;
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .bio-card__desc {
     font-size: 1rem;
     color: #484848;
