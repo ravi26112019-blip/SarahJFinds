@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.verified-tick {
+    position: absolute; left: 100%; top: 50%; transform: translateY(-50%);
+}
+
 body {
     min-height: 100svh;
     display: flex;
