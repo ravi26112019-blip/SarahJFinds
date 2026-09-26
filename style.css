@@ -93,7 +93,7 @@ body {
 }
 
 .verified-tick {
-    position: absolute; left: 100%; top: 50%; transform: translateY(-50%);
+    position: absolute; 
 }
 
 .bio-card__desc {
