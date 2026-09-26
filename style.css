@@ -85,17 +85,6 @@ body {
     width: 90%;
 }
 
-.bio-card__name {
-    font-size: 1.8rem;
-    display: inline-block;
-    position: relative;
-    margin: auto;
-}
-
-.verified-tick {
-    position: absolute; 
-}
-
 .bio-card__desc {
     font-size: 1rem;
     color: #484848;
