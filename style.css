@@ -87,6 +87,9 @@ body {
 
 .bio-card__name {
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bio-card__desc {
