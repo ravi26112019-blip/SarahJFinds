@@ -5,81 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Sarah Johnson Finds</title>
-    <link rel="stylesheet" href="../style.css?v=2">
-    <link rel="icon" type="image/webp" href="/favicon.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/webp" href="/favicon.webp?v=2">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <svg class="bio-card__bg-curve" viewBox="0 0 1440 400">
-        <path d="M0,0 H1440 V300 Q720,500 0,300 Z"></path>
-    </svg>
-
-    <main class="bio-card">
-        <button class="bio-card__share-btn" onclick="sharePage()" aria-label="Share Page">
-            <i class="fa-solid fa-arrow-up-from-bracket"></i>
-        </button>
-
-        <div class="bio-card__avatar-box">
-            <img class="bio-card__avatar-img" src="/avatar.png" alt="Sarah J. Finds">
+    <main>
+        <div class="top-banner"></div>
+        <div class="profile-section">
+            <img src="avatar.png?v=2" class="profile-pic" alt="Profile">
         </div>
 
-        <div class="bio-card__user-info">
-            <h2 style="display: inline-block; position: relative; font-size: 1.8rem; margin: 0 auto;">
-                SARAH J. FINDS
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    style="width: 16px; height: 16px; position: absolute; left: 100%; top: 50%; transform: translateY(-50%); margin-left: 6px;">
-                    <path
-                        d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.79-4-4-4-.495 0-.965.084-1.4.238C14.55 2.475 13.18 1.6 11.6 1.6c-1.58 0-2.95.875-3.6 2.148-.435-.154-.905-.238-1.4-.238-2.21 0-4 1.79-4 4 0 .495.084.965.238 1.4C1.575 9.55.7 10.92.7 12.5c0 1.58.875 2.95 2.148 3.6-.154.435-.238.905-.238 1.4 0 2.21 1.79 4 4 4 .495 0 .965-.084 1.4-.238 1.05 1.273 2.42 2.148 4 2.148 1.58 0 2.95-.875 3.6-2.148.435.154.905.238 1.4.238 2.21 0 4-1.79 4-4 0-.495-.084-.965-.238-1.4 1.273-1.05 2.148-2.42 2.148-4z"
-                        fill="#1d9bf0" />
-                    <path d="M10.2 16.2l-3.5-3.5 1.4-1.4 2.1 2.1 5.3-5.3 1.4 1.4-6.7 6.7z" fill="#ffffff" />
-                </svg>
-            </h2>
-            <p class="bio-card__desc">Sharing my favorite finds for a curated lifestyle. Home, Tech, Style & more!</p>
-            <p class="bio-card__tag">#AmazonCreator💖</p>
-        </div>
+        <section class="bio-card">
+            <button class="bio-card__share-btn" onclick="sharePage()" aria-label="Share Page">
+                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+            </button>
 
-        <section class="bio-card__links">
-            <a class="bio-card__link-item" href="https://amzn.eu/d/0cOnH7tn">SHOP MY STOREFRONT</a>
-            <a class="bio-card__link-item" href="#">SMART HOME ESSENTIALS</a>
-            <a class="bio-card__link-item" href="#">MUST HAVE CAR GADGETS</a>
-            <a class="bio-card__link-item" href="#">VIRAL EVERYDAY HACKS</a>
+            <div class="bio-card__user-info">
+                <h2 class="bio-card__title">
+                    Sarah J. Finds
+                    <svg class="bio-card__verified-icon" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.79-4-4-4-.495 0-.965.084-1.4.238C14.55 2.475 13.18 1.6 11.6 1.6c-1.58 0-2.95.875-3.6 2.148-.435-.154-.905-.238-1.4-.238-2.21 0-4 1.79-4 4 0 .495.084.965.238 1.4C1.575 9.55.7 10.92.7 12.5c0 1.58.875 2.95 2.148 3.6-.154.435-.238.905-.238 1.4 0 2.21 1.79 4 4 4 .495 0 .965-.084 1.4-.238 1.05 1.273 2.42 2.148 4 2.148 1.58 0 2.95-.875 3.6-2.148.435.154.905.238 1.4.238 2.21 0 4-1.79 4-4 0-.495-.084-.965-.238-1.4 1.273-1.05 2.148-2.42 2.148-4z"
+                            fill="#1d9bf0" />
+                        <path d="M10.2 16.2l-3.5-3.5 1.4-1.4 2.1 2.1 5.3-5.3 1.4 1.4-6.7 6.7z" fill="#ffffff" />
+                    </svg>
+                </h2>
+                <div class="sub-info">
+                    <p class="bio-card__handle">@SarahJFinds</p>
+                    <p class="bio-card__tag">Lifestyle & Finds | Amazon Influencer</p>
+                    <p class="bio-card__desc">Sharing my absolute favorite Amazon finds & daily deals! 🚀</p>
+                </div>
+            </div>
+
+            <section class="bio-card__links">
+                <a class="bio-card__link-item" href="https://a.co/d/093No6jD">Shop My Storefront</a>
+                <a class="bio-card__link-item"
+                    href="https://www.amazon.com/shop/sarahjfinds/list/167Q8BBT20UN0?ref_=aipsflist&tag=sarahjfinds01-20">Viral
+                    Car Upgrades</a>
+                <a class="bio-card__link-item"
+                    href="https://www.amazon.com/shop/sarahjfinds/list/2NCEA0ME5L32X?ref_=aipsflist&tag=sarahjfinds01-20">Smart
+                    Home Finds</a>
+                <a class="bio-card__link-item" href="https://a.co/d/093No6jD">Grab Today's Deals</a>
+            </section>
+
+            <section class="bio-card__socials">
+                <a href="https://www.instagram.com/sarahjfinds">
+                    <i class="fa-brands fa-instagram bio-card__social-icon"></i>
+                </a>
+                <a href="https://facebook.com/sarahjfinds">
+                    <i class="fa-brands fa-facebook bio-card__social-icon"></i>
+                </a>
+                <a href="https://youtube.com/@SarahJFinds">
+                    <i class="fa-brands fa-youtube bio-card__social-icon"></i>
+                </a>
+            </section>
+
+            <span class="bio-card__disclosure">As an Amazon Associate I earn from qualifying purchases.</span>
+
+            <footer class="bio-card__footer">
+                <span>amazon.com/shop/SarahJFinds</span>
+            </footer>
         </section>
 
-        <section class="bio-card__socials">
-            <a href="https://www.instagram.com/sarahjfinds">
-                <i class="fa-brands fa-instagram bio-card__social-icon"></i>
-            </a>
-            <a href="https://facebook.com/sarahjfinds">
-                <i class="fa-brands fa-facebook bio-card__social-icon"></i>
-            </a>
-            <a href="https://youtube.com/@SarahJFinds">
-                <i class="fa-brands fa-youtube bio-card__social-icon"></i>
-            </a>
-            <span class="bio-card__handle">@SARAHJFINDS</span>
-        </section>
-
-        <span class="bio-card__disclosure">As an Amazon Associate I earn from qualifying purchases.</span>
-
-        <footer class="bio-card__footer">
-            <span>amazon.com/shop/sarahjfinds</span>
-        </footer>
-    </main>
-
-    <script>
-        function sharePage() {
-            if (navigator.share) {
-                navigator.share({
-                    title: document.title,
-                    url: window.location.href
-                }).catch(err => console.log('Share canceled'));
-            } else {
-                navigator.clipboard.writeText(window.location.href);
-                alert("Link copied to clipboard!");
+        <script>
+            function sharePage() {
+                if (navigator.share) {
+                    navigator.share({
+                        title: document.title,
+                        url: window.location.href
+                    }).catch(err => console.log('Share canceled'));
+                } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert("Link copied to clipboard!");
+                }
             }
-        }
-    </script>
+        </script>
+    </main>
 </body>
 
 </html>
